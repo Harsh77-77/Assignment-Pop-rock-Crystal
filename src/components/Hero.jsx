@@ -7,7 +7,6 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Hero = () => {
   const slides = [rock1, rock2, rock3, rock4, rock2, rock1, rock4];
-
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToNextSlide = () => {
@@ -81,7 +80,7 @@ const Hero = () => {
               onClick={goToPreviousSlide}
               className="flex justify-center items-center w-[24px] h-[24px] bg-[#8A93E5] text-white text-[14px]"
             >
-              <FaArrowLeft></FaArrowLeft>
+              <FaArrowLeft />
             </button>
             <div className="flex space-x-2">
               {slides.map((_, index) => (
@@ -98,7 +97,7 @@ const Hero = () => {
               onClick={goToNextSlide}
               className="flex justify-center items-center w-[24px] h-[24px] bg-[#8A93E5] text-white text-[14px]"
             >
-              <FaArrowRight></FaArrowRight>
+              <FaArrowRight />
             </button>
           </div>
         </div>

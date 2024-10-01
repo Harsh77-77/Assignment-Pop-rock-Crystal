@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React from "react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 
@@ -12,8 +12,8 @@ const Home = () => {
 
   return (
     <>
-      <div className="flex items-center justify-center flex-col w-full h-screen relative overflow-hidden ">
-        <div className="absolute top-0 left-0 w-full h-full z-0 blur-3xl ">
+      <div className="flex items-center justify-center flex-col w-full h-screen relative overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-full z-0 blur-3xl">
           <svg
             width="100%"
             height="100%"
@@ -112,7 +112,7 @@ const Home = () => {
             </defs>
           </svg>
         </div>
-        <div className=" w-full absolute bg-[hsla(0,0%,100%,0)]"></div>
+        <div className="w-full absolute bg-[hsla(0,0%,100%,0)]"></div>
 
         <div className="w-full absolute bottom-0 left-0 hidden xl:block">
           <svg
@@ -154,7 +154,7 @@ const Home = () => {
                   fill="#307189"
                 />
               </svg>
-              <div className="pl-4 font-bold text-[16px] leading-[24px] text-[#317189] ">
+              <div className="pl-4 font-bold text-[16px] leading-[24px] text-[#317189]">
                 scroll down
               </div>
             </div>
