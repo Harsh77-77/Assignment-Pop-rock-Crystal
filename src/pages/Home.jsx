@@ -130,7 +130,7 @@ const Home = () => {
           </svg>
         </div>
 
-        <div className="w-full h-full z-10">
+        <div className="w-full h-screen z-10">
           <Header />
           <Hero />
           <div
