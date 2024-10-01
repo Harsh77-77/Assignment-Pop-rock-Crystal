@@ -12,7 +12,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="flex items-center justify-center flex-col w-[100%] h-screen relative overflow-hidden ">
+      <div className="flex items-center justify-center flex-col w-full h-screen relative overflow-hidden ">
         <div className="absolute top-0 left-0 w-full h-full z-0 blur-3xl ">
           <svg
             width="100%"
