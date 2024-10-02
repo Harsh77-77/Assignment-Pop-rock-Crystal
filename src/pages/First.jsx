@@ -3,7 +3,7 @@ import React from "react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 
-const Home = () => {
+const First = () => {
   const scrollDown = () => {
     window.scrollBy({
       top: window.innerHeight,
@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
       <div className="items-center w-full h-screen relative overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-full z-0 blur-3xl">
+        <div className="  absolute top-0 left-0 w-full h-full z-0 blur-3xl">
           <svg
             width="100%"
             height="100%"
@@ -113,6 +113,7 @@ const Home = () => {
             </defs>
           </svg>
         </div>
+        
         <div className="w-full absolute bottom-0 left-0 top-[300px] hidden xl:flex z-0">
           <svg
             width="100%"
@@ -127,8 +128,12 @@ const Home = () => {
             />
           </svg>
         </div>
+        
+        
+
+
         <div className="w-full h-screen flex justify-center relative items-center z-10">
-          <Header></Header>
+          <Header/>
           <Hero />
         </div>
         <div className="w-full hidden  absolute bottom-[2rem] xl:bottom-[3.4375rem] lg:flex justify-center items-center z-10">
@@ -162,4 +167,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default First;

@@ -7,7 +7,7 @@ const Product = (props) => {
       </div>
       <div className="w-full my-3 sm:my-4">
         <div className="flex text-gray-950 text-[16px] sm:text-[18px] md:text-[20px] leading-[20px] sm:leading-[22px] md:leading-[24px] font-normal w-full justify-center uppercase">
-          Crystal Agate Phone Grip
+        Crystal Agate Phone Grip
         </div>
         <span className="flex text-[#317189] text-[18px] sm:text-[20px] font-bold w-full justify-center">
           18.99$

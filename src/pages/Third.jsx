@@ -1,7 +1,7 @@
 import BestPracticeSvg from "../components/BestPracticeSvg";
 import BestPriceHero from "../components/BestPraiceHero";
 
-const BestPrice = () => {
+const Third = () => {
   return (
     <div className="flex items-center justify-center flex-col w-[100%] h-screen relative overflow-hidden">
       <BestPracticeSvg></BestPracticeSvg>
@@ -12,4 +12,4 @@ const BestPrice = () => {
   );
 };
 
-export default BestPrice;
+export default Third;

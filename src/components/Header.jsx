@@ -58,8 +58,8 @@ const Header = () => {
             isMenuOpen ? "backdrop-filter backdrop-blur-lg bg-white/10" : ""
           } md:bg-none`} 
         >
-          <div className="w-full md:w-auto mb-4 md:mb-0">
-            <ul className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-10 text-white text-[16px] leading-[30px] font-medium">
+          <div className="w-full md:w-auto mb-4 md:mb-0 ">
+            <ul className="  flex flex-col md:flex-row justify-center items-center gap-4 md:gap-10 text-white text-[16px] leading-[30px] font-medium">
               <a href="">
                 <li>Home</li>
               </a>

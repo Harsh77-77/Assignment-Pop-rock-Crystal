@@ -1,4 +1,4 @@
-import rock2 from "../assets/rock2.webp";
+import rock1 from "../assets/rock1.png";
 
 const BestPriceHero = () => {
   return (
@@ -31,7 +31,7 @@ const BestPriceHero = () => {
           <div className="flex justify-center items-center w-[230px] h-[230px] md:w-[570px] md:h-[570px] bg-white rounded-full shadow-custom">
             <div className="flex justify-center items-center w-[150px] h-[150px] md:w-[364px] md:h-[364px] bg-white rounded-full shadow-custom">
               <div className="w-[100px] h-[100px] md:w-[248px] md:h-[248px] flex justify-center items-center">
-                <img src={rock2} alt="Agate Phone Grip" />
+                <img src={rock1} alt="Agate Phone Grip" />
               </div>
             </div>
           </div>

@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import rock1 from "../assets/rock1.png";
-import rock2 from "../assets/rock2.webp";
-import rock3 from "../assets/rock3.webp";
-import rock4 from "../assets/rock4.webp";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Hero = () => {
@@ -43,7 +40,7 @@ const Hero = () => {
           </div>
 
           <div className="flex justify-center md:justify-between w-full md:w-[283px] gap-4 md:gap-0">
-            <button className="w-[140px] md:w-[180px] h-[40px] md:h-[56px] bg-white rounded-[18px] font-bold text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-[#317189]">
+            <button className="w-[140px] md:w-[180px] h-[40px] md:h-[56px] bg-white rounded-[18px] font-bold text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-[#317189]  border-[#75CCEB] border-[2px] transition-all duration-400 ease-in-out hover:bg-gradient-to-r hover:from-[#75CCEB] hover:to-blue-300  hover:shadow-blue-300/50 hover:text-white hover:shadow-2xl">
               SHOP NOW
             </button>
             <button className="font-normal text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] text-[#317189]">
@@ -51,7 +48,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        
+
         <div className="hidden xl:flex flex-col justify-center items-end flex-1">
           <div className="w-[569px] h-[554px] flex justify-center items-center bg-white rounded-[50px] shadow-custom overflow-hidden relative">
             <div className="absolute w-[97px] h-[40px] top-20 rounded-tr-lg flex justify-center items-center font-medium rounded-br-lg left-0 bg-[#8A93E5] text-white text-[16px] leading-[24px] z-10">
@@ -66,11 +63,17 @@ const Hero = () => {
                   key={index}
                   className="min-w-full min-h-full flex flex-col justify-center items-center"
                 >
-                  <img src={slide} alt={`Slide ${index + 1}`} className="w-[362px]" />
+                  <img
+                    src={slide}
+                    alt={`Slide ${index + 1}`}
+                    className="w-[362px]"
+                  />
                   <hr className="w-[120px] h-[2px] bg-gray-200 m-4" />
                   <div className="w-full flex justify-center  mb-6 items-center text-[#818181] text-[20px] leading-[24px] font-normal">
                     Crystal Agate Phone Grip{" "}
-                    <span className="pl-2 text-[#317189] font-bold">- 18.99$</span>
+                    <span className="pl-2 text-[#317189] font-bold">
+                      - 18.99$
+                    </span>
                   </div>
                 </div>
               ))}
