@@ -53,7 +53,7 @@ const Hero = () => {
         </div>
         
         <div className="hidden xl:flex flex-col justify-center items-end flex-1">
-          <div className="max-w-[569px] max-h-[554px] flex justify-center items-center bg-white rounded-[50px] shadow-custom overflow-hidden relative">
+          <div className="w-[569px] h-[554px] flex justify-center items-center bg-white rounded-[50px] shadow-custom overflow-hidden relative">
             <div className="absolute w-[97px] h-[40px] top-20 rounded-tr-lg flex justify-center items-center font-medium rounded-br-lg left-0 bg-[#8A93E5] text-white text-[16px] leading-[24px] z-10">
               New lot
             </div>
