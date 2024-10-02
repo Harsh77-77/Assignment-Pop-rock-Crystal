@@ -16,15 +16,13 @@ const Products = () => {
 
   const productArray = [
     { image: rock1, name: 'Rock 1', price: 10 },
-    { image: rock2, name: 'Rock 2', price: 20 },
-    { image: rock3, name: 'Rock 3', price: 15 },
-    { image: rock4, name: 'Rock 4', price: 25 },
-    { image: rock2, name: 'Rock 2', price: 20 },
+    { image: rock1, name: 'Rock 1', price: 20 },
+    { image: rock1, name: 'Rock 1', price: 15 },
+    { image: rock1, name: 'Rock 1', price: 25 },
+    { image: rock1, name: 'Rock 1', price: 20 },
     { image: rock1, name: 'Rock 1', price: 10 },
-    { image: rock4, name: 'Rock 4', price: 25 },
+    { image: rock1, name: 'Rock 1', price: 25 },
     { image: rock1, name: 'Rock 1', price: 10 },
-    { image: rock3, name: 'Rock 3', price: 15 },
-    { image: rock2, name: 'Rock 2', price: 20 },
   ];
 
   const handleSortChange = (option) => {

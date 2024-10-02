@@ -6,7 +6,7 @@ import rock4 from "../assets/rock4.webp";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Hero = () => {
-  const slides = [rock1, rock2, rock3, rock4, rock2, rock1, rock4];
+  const slides = [rock1, rock1, rock1, rock1, rock1, rock1, rock1];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -51,7 +51,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        {/* ------------------------------------------------------------------------------ */}
+        
         <div className="hidden xl:flex flex-col justify-center items-end flex-1">
           <div className="max-w-[569px] max-h-[554px] flex justify-center items-center bg-white rounded-[50px] shadow-custom overflow-hidden relative">
             <div className="absolute w-[97px] h-[40px] top-20 rounded-tr-lg flex justify-center items-center font-medium rounded-br-lg left-0 bg-[#8A93E5] text-white text-[16px] leading-[24px] z-10">
@@ -102,7 +102,6 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        {/* ------------------------------------------------------------------------------ */}
       </div>
     </div>
   );

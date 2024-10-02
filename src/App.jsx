@@ -7,11 +7,10 @@ import Header from "./components/Header";
 function App() {
   return (
     <>
-   
-      <Home></Home>
-      <Products></Products>
-      <BestPrice></BestPrice>
-      <Footer></Footer>
+      <Home/>
+      <Products/>
+      <BestPrice/>
+      <Footer/>
     </>
   );
 }
