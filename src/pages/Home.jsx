@@ -131,11 +131,11 @@ const Home = () => {
           <Header></Header>
           <Hero />
         </div>
-        <div
-          className="w-full hidden  absolute bottom-[2rem] xl:bottom-[3.4375rem] lg:flex justify-center items-center z-10"
-          onClick={scrollDown}
-        >
-          <div className="flex justify-center items-center cursor-pointer">
+        <div className="w-full hidden  absolute bottom-[2rem] xl:bottom-[3.4375rem] lg:flex justify-center items-center z-10">
+          <div
+            className="flex justify-center items-center cursor-pointer"
+            onClick={scrollDown}
+          >
             <svg
               width="1.75rem"
               height="2.375rem"
