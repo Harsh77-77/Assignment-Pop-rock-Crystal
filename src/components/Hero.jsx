@@ -7,6 +7,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Hero = () => {
   const slides = [rock1, rock2, rock3, rock4, rock2, rock1, rock4];
+
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToNextSlide = () => {
@@ -26,7 +27,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-start w-full px-4">
+    <div className="flex flex-col items-center justify-center xl:mt-12 w-full h-full px-4">
       <div className="flex flex-col md:flex-row justify-between items-center w-full lg:w-[90%]">
         <div className="w-full flex justify-center items-center xl:items-start flex-col text-center xl:text-left text-white">
           <div className="font-normal text-[32px] md:text-[40px] leading-[40px] md:leading-[65px] text-white">
@@ -51,8 +52,8 @@ const Hero = () => {
           </div>
         </div>
         {/* ------------------------------------------------------------------------------ */}
-        <div className="hidden xl:flex flex-col justify-center items-end w-full">
-          <div className="w-[569px] h-[554px] flex justify-center items-center bg-white rounded-[50px] shadow-custom overflow-hidden relative">
+        <div className="hidden xl:flex flex-col justify-center items-end flex-1">
+          <div className="max-w-[569px] max-h-[554px] flex justify-center items-center bg-white rounded-[50px] shadow-custom overflow-hidden relative">
             <div className="absolute w-[97px] h-[40px] top-20 rounded-tr-lg flex justify-center items-center font-medium rounded-br-lg left-0 bg-[#8A93E5] text-white text-[16px] leading-[24px] z-10">
               New lot
             </div>
@@ -66,8 +67,8 @@ const Hero = () => {
                   className="min-w-full min-h-full flex flex-col justify-center items-center"
                 >
                   <img src={slide} alt={`Slide ${index + 1}`} className="w-[362px]" />
-                  <hr className="w-[120px] h-[2px] bg-gray-200 mb-4 mt-12" />
-                  <div className="w-full flex justify-center items-center text-[#818181] text-[20px] leading-[24px] font-normal">
+                  <hr className="w-[120px] h-[2px] bg-gray-200 m-4" />
+                  <div className="w-full flex justify-center  mb-6 items-center text-[#818181] text-[20px] leading-[24px] font-normal">
                     Crystal Agate Phone Grip{" "}
                     <span className="pl-2 text-[#317189] font-bold">- 18.99$</span>
                   </div>
@@ -80,7 +81,7 @@ const Hero = () => {
               onClick={goToPreviousSlide}
               className="flex justify-center items-center w-[24px] h-[24px] bg-[#8A93E5] text-white text-[14px]"
             >
-              <FaArrowLeft />
+              <FaArrowLeft></FaArrowLeft>
             </button>
             <div className="flex space-x-2">
               {slides.map((_, index) => (
@@ -97,7 +98,7 @@ const Hero = () => {
               onClick={goToNextSlide}
               className="flex justify-center items-center w-[24px] h-[24px] bg-[#8A93E5] text-white text-[14px]"
             >
-              <FaArrowRight />
+              <FaArrowRight></FaArrowRight>
             </button>
           </div>
         </div>

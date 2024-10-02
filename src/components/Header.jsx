@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <div className="w-full flex justify-center items-center h-fit mb-[1rem] relative z-20">
+    <div className="w-full flex justify-center items-center h-fit mb-[1rem] absolute top-0 left-0 z-20">
       <div className="w-[90%] flex flex-col md:flex-row justify-between items-center py-8">
         <div className="flex justify-between items-center w-full md:w-auto mb-4 md:mb-0">
           <div className="flex justify-start items-center gap-2">

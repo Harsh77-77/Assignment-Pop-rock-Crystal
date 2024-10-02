@@ -1,6 +1,5 @@
 const BestPracticeSvg = () => {
-  return (
-    <div>
+  return (<>
       <div className="absolute top-0 left-0 w-full h-full z-0 blur-3xl ">
         <svg
           width="100%" // Updated to make the SVG take the full width
@@ -95,10 +94,10 @@ const BestPracticeSvg = () => {
           </defs>
         </svg>
       </div>
-      <div className="w-full absolute bottom-0 left-0 hidden xl:flex">
+      <div className=" w-full absolute top-0 bottom-0 left-0 hidden xl:flex">
         <svg
           width="100%"
-          height="900"
+          // height="900"
           viewBox="0 0 1440 900"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -110,7 +109,7 @@ const BestPracticeSvg = () => {
           />
         </svg>
       </div>
-    </div>
+      </>
   );
 };
 
